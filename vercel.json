@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/wedding", "destination": "https://wed-lac-delta.vercel.app/" },
+    { "source": "/wedding/:path*", "destination": "https://wed-lac-delta.vercel.app/:path*" }
+  ]
+}
